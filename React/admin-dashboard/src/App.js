@@ -7,6 +7,7 @@ import './App.css';
 import { Browser } from '@syncfusion/ej2/base';
 
 const App = () => {
+  const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
@@ -22,8 +23,16 @@ const App = () => {
               </button>
             </TooltipComponent>
           </div>
+          {activeMenu ? (
+            <div>
+              Sidebar
+            </div>
+          ) : (
+            <div>
+              Sidebar w-0
+            </div>
+          )}
         </div>
-      
       </BrowserRouter>
     </div>
   )
