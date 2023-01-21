@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { SiShopware } from 'react-icons/si';
 import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
-// import { links } from '';
+import { links } from '../data/dummy';
 
 const Sidebar = () => {
   const activeMenu = true;
@@ -28,6 +28,14 @@ const Sidebar = () => {
               <MdOutlineCancel />
             </button>
           </TooltipComponent>
+        </div>
+        <div className='mt-10'>
+          { links.map((item) => (
+            <div className='text-gray-400 m-3
+            mt-4 uppercase'>
+              {item.title}
+            </div>
+          )) }
         </div>
       </>)}
     </div>
