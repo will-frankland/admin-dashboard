@@ -28,16 +28,14 @@ const Sidebar = () => {
           dark:text-white text-slate-900'>
             <SiShopware className='text-3xl' /><span>Shoppy</span>
           </Link>
-          <TooltipComponent content='Menu'
-          position='BottomCenter'>
-            <button type='button'
-              onClick={() => setActiveMenu(
-                (prevActiveMenu) =>
+          <TooltipComponent content='Menu'position='BottomCenter'>
+            <button
+              type='button'
+              onClick={() => setActiveMenu((prevActiveMenu) =>
                 !prevActiveMenu
               )}
-              className='text-xl rounded-full
-              p-3 hover:bg-light-gray mt-4 block
-              md:hidden'>
+              className='text-xl rounded-full p-3 hover:bg-light-gray mt-4 blockmd:hidden'
+            >
               <MdOutlineCancel />
             </button>
           </TooltipComponent>
@@ -64,11 +62,11 @@ const Sidebar = () => {
                 </NavLink>
               ))}
             </div>
-          )) }
+          ))}
         </div>
       </>)}
     </div>
-  )
+  );
 };
 
 export default Sidebar
