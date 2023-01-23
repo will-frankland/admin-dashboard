@@ -18,6 +18,15 @@ const Ecommerce = () => {
               <p className='text-2xl'>$84,915.79</p>
             </div>
           </div>
+          <div className='mt-6'>
+            <Button
+              color="white"
+              bgColor="blue"
+              text="Download"
+              borderRadius="10px"
+              size="md"
+            />
+          </div>
         </div>
       </div>
       
