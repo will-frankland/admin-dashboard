@@ -29,8 +29,7 @@ const App = () => {
             </TooltipComponent>
           </div>
           {activeMenu ? (
-            <div className='w-72 fixed sidebar
-            dark:bg-secondary-dark-bg bg-white'>
+            <div className='w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white'>
               <Sidebar />
             </div>
           ) : (
@@ -46,7 +45,7 @@ const App = () => {
             dark:bg-main-dark-bg navbar w-full'>
               <Navbar />
             </div>
-          </div>
+          
 
           <div>
             <Routes>
@@ -75,6 +74,7 @@ const App = () => {
               <Route path='/pyramid' element={<Pyramid />} />
               <Route path='/stacked' element={<Stacked />} />
             </Routes>
+          </div>
           </div>
         </div> 
       </BrowserRouter>
