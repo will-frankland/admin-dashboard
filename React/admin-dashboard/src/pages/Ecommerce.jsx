@@ -99,7 +99,7 @@ const Ecommerce = () => {
               <div className="mt-5">
                 <SparkLine
                   currentColor='blue'
-                  id='line-sparkline'
+                  id='line-sparkLine'
                   type='Line'
                   height='80px'
                   width='250px'
@@ -114,6 +114,12 @@ const Ecommerce = () => {
                   text='Download Report'
                   borderRadius='10px'/>
               </div>
+            </div>
+            <div>
+              <Stacked
+                width='320px'
+                height='360px'
+              />
             </div>
           </div>
         </div>

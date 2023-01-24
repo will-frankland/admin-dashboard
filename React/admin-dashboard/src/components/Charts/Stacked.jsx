@@ -1,4 +1,6 @@
 import React from 'react'
+import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, StackingColumnSeries, Tooptip } from '@syncfusion/ej2-react-charts'
+import { stackedCustomSeries, stackedPrimaryXAxis, stackedPrimaryYAxis } from '../../data/dummy'
 
 const Stacked = () => {
   return (
