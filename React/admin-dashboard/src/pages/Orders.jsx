@@ -7,7 +7,7 @@ import { Header } from '../components';
 const Orders = () => {
   return (
     <div>
-      Orders
+      <Header category='Page' title='Orders'/>
     </div>
   )
 }
