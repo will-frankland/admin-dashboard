@@ -1,7 +1,8 @@
 import React from 'react';
-import { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, ContextMenu, Filter, Page, ExcelExport, pdfExport, Edit, Inject  } from '@syncfusion/ej2-react-grids';
+import { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, ContextMenu, Filter, Page, ExcelExport, pdfExport, Edit, Inject, PdfExport  } from '@syncfusion/ej2-react-grids';
 import { ordersData, contextMenuItems, ordersGrid } from '../data/dummy';
 import { Header } from '../components';
+import { PdfAction } from '@syncfusion/ej2/pdf-export';
 
 
 const Orders = () => {
@@ -11,12 +12,14 @@ const Orders = () => {
       <GridComponent
         id="gridcomp"
         dataSource={ordersData}
+        allowPaging
       >
         <ColumnsDirective>
         {ordersGrid.map((item, index) => (
           <ColumnDirective key={index} {...item} />
         ))}
         </ColumnsDirective>
+        <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, Edit, PdfExport]} />
       </GridComponent>
     </div>
   )
