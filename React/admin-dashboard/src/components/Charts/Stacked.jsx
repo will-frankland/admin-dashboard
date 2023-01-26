@@ -1,12 +1,13 @@
 import React from 'react'
-import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, StackingColumnSeries, Tooptip } from '@syncfusion/ej2-react-charts'
+import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, StackingColumnSeries, Tooptip, Chart } from '@syncfusion/ej2-react-charts'
 import { stackedCustomSeries, stackedPrimaryXAxis, stackedPrimaryYAxis } from '../../data/dummy'
+import { ToolBase } from '@syncfusion/ej2/diagrams'
 
 const Stacked = () => {
   return (
-    <div>
-      Stacked
-    </div>
+    <ChartComponent>
+      <Inject services={[Legend, Category, StackingColumnSeries, Tooltip]} />
+    </ChartComponent>
   )
 }
 
