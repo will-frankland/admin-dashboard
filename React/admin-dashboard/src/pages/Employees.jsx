@@ -1,5 +1,5 @@
 import React from 'react';
-import { GridComponent, ColumnsDirective, ColumnDirective, Page, Search, Inject  } from '@syncfusion/ej2-react-grids';
+import { GridComponent, ColumnsDirective, ColumnDirective, Page, Search, Inject,Toolbar } from '@syncfusion/ej2-react-grids';
 import { employeesData, employeesGrid } from '../data/dummy';
 import { Header } from '../components';
 
@@ -20,7 +20,7 @@ const Employees = () => {
           <ColumnDirective key={index} {...item} />
         ))}
         </ColumnsDirective>
-        <Inject services={[Page, Search]} />
+        <Inject services={[Page, Search, Toolbar]} />
       </GridComponent>
     </div>
   )
