@@ -7,19 +7,19 @@ import { Header } from '../components';
 const Employees = () => {
   return (
     <div className='margin-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl'>
-      <Header category='Page' title='Orders'/>
+      <Header category='Page' title='Employees'/>
       <GridComponent
         id="gridcomp"
-        dataSource={ordersData}
+        dataSource={employeesData}
         allowPaging
         allowSorting
       >
         <ColumnsDirective>
-        {ordersGrid.map((item, index) => (
+        {employeesGrid.map((item, index) => (
           <ColumnDirective key={index} {...item} />
         ))}
         </ColumnsDirective>
-        <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, Edit, PdfExport]} />
+        <Inject services={[Page, Search]} />
       </GridComponent>
     </div>
   )
