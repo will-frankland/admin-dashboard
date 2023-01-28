@@ -29,7 +29,7 @@ import "./App.css";
 import { Browser } from "@syncfusion/ej2/base";
 
 const App = () => {
-  const { activeMenu } = useStateContext();
+  const { activeMenu, themeSettings } = useStateContext();
   return (
     <div>
       <BrowserRouter>
@@ -68,7 +68,7 @@ const App = () => {
             </div>
 
             <div>
-              <ThemeSettings />
+              {themeSettings && <ThemeSettings />}
             
 
               <Routes>
