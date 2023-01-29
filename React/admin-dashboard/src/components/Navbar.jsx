@@ -54,7 +54,7 @@ const Navbar = () => {
         title="Menu"
         customFunc={() => setActiveMenu(
         (prevActiveMenu) => !prevActiveMenu)}
-        color="blue"
+        color={currentColor}
         icon={<AiOutlineMenu />} />
 
         <div className='flex'>
