@@ -29,7 +29,7 @@ import "./App.css";
 import { Browser } from "@syncfusion/ej2/base";
 
 const App = () => {
-  const { activeMenu, themeSettings } = useStateContext();
+  const { activeMenu, themeSettings, setThemeSettings } = useStateContext();
   return (
     <div>
       <BrowserRouter>
@@ -38,8 +38,8 @@ const App = () => {
             <TooltipComponent content="Settings" position="top">
               <button
                 type="button"
-                className="text-3xl p-3
-              hover:drop-shadow-xl hover:bg-light-gray text-white"
+                className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white"
+                onClick={() => setThemeSettings(true)}
                 style={{ background: "blue", borderRadius: "50%" }}
               >
                 <FiSettings />
