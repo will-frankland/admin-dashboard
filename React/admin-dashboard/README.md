@@ -1,4 +1,4 @@
-### About this app
+## About this app
 
 This app is an admin dashboard for a pretend shop. It was built using React, Syncfusion and Tailwind and displays a variety of different components to showcase the ability of these frameworks and for me to practie utilizing React and it's add-ons.
 
@@ -6,7 +6,7 @@ There are many seperate tabs accessible via the collapsible sidebar including du
 
 Many of these charts are interactive and the user can choose to add or remove data simply by clicking on the items in the chart legend.
 
-## Functionality & Key Features
+### Functionality & Key Features
 
 The app allows users to access settings in the bottom right and change the colour as well as activate dark mode if so desired.
 
@@ -29,11 +29,11 @@ https://syncfucsion-dashboard-site.netlify.app
 
 ## Screenshots
 
-!["Screenshot of Dashboard Homepage"]()
-!["Screenshot of Orders Page"]()
-!["Screenshot of Colour-Mapping Chart"]()
-!["Screenshot of Settings"]()
-!["Screenshot of Dark Mode"]()
+!["Screenshot of Dashboard Homepage"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-home.png?raw=true)
+!["Screenshot of Orders Page"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-orders.png?raw=true)
+!["Screenshot of Colour-Mapping Chart"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-color-mapping.png?raw=true)
+!["Screenshot of Settings"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-settings.png?raw=true)
+!["Screenshot of Dark Mode"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-darkmode.png?raw=true)
 
 ## Dependencies
 
