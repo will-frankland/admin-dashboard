@@ -33,7 +33,7 @@ https://syncfucsion-dashboard-site.netlify.app
 !["Screenshot of Orders Page"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-orders.png?raw=true)
 !["Screenshot of Colour-Mapping Chart"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-color-mapping.png?raw=true)
 !["Screenshot of Settings"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-settings.png?raw=true)
-!["Screenshot of Dark Mode"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-darkmode.png?raw=true)
+!["Screenshot of Dark Mode"](https://github.com/will-frankland/admin-dashboard/blob/master/React/admin-dashboard/docs/Admin-dashboard-darkmode-.png?raw=true)
 
 ## Dependencies
 
