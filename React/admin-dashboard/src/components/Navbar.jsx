@@ -91,8 +91,8 @@ const Navbar = () => {
                   alt="user-profile"
                   />
                   <p>
-                    <span className='text-gray-400 text-14'>Hi, </span> {' '}
-                    <span className='text-gray-400 font-bold ml-1 text-14'>Michael </span>
+                    <span className='text-gray-400 text-14'>Hey, </span> {' '}
+                    <span className='text-gray-400 font-bold ml-1 text-14'>Will </span>
                   </p>
                   <MdKeyboardArrowDown className='text-gray-400 text-14' />
               </div>
